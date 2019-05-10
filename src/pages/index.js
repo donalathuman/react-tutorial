@@ -6,9 +6,8 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1>Learn to design and code React apps</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        <Link to="/page-2/">Watch the video</Link>
+        <p>Welcome to your new Gatsby site. Now go build something great.</p>
+        <Link to="/video">Watch the video</Link>
       </div>
     </div>
   </div>
