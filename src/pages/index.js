@@ -29,7 +29,6 @@ const SectionCellGroup = styled.div`
   }
 `
 
-
 const IndexPage = () => (
   <div>
     <div className="Hero">

@@ -1,8 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: 'Test React tutorial',
+    title: 'Design+Code 3',
     description: 'Complete courses about the best tools and design systems. Prototype and build apps with React and Swift. 60 hours of video content and resource materials. No coding experience required.',
     keywords: 'react course, react for designers, ios development, sketch app, swift app course, arkit 2, after effects, create sketch plugin'
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-source-contentful',
+      options: { // from contentful.com -> settings -> API Keys -> my-app 1
+        spaceId: '5t9w6hjaiau1',
+        accessToken: 'X4yCLpGwYR_f1rv1LA6wWE8CobGA3bInzgiROLtUrzU'
+      }
+    }
+  ],
 }
