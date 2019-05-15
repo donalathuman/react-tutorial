@@ -33,7 +33,7 @@ const IndexPage = () => (
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Learn to design and code React apps</h1>
+        <h1>Learn to design and code React apps.</h1>
         <p>Welcome to your new Gatsby site. Now go build something great.</p>
         <Link to="/video">Watch the video</Link>
         <div className="Logos">
