@@ -34,7 +34,7 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1>Learn to design and code React apps.</h1>
-        <p>Welcome to your new Gatsby site. Now go build something great.</p>
+        <p>Welcome to your new Gatsby site. Now go build something great...</p>
         <Link to="/video">Watch the video</Link>
         <div className="Logos">
           <img src={require('../images/logo-sketch.png')} width="50" />
