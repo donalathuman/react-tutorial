@@ -22,3 +22,9 @@ exports.handler = async function (event) {
         currency: 'usd'
     })
 }
+
+
+
+
+// AWS Deploy url
+// https://<branchname>.<appid>.amplifyapp.com
